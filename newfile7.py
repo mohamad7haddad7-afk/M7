@@ -3,7 +3,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Your bot token
-TOKEN = "8386757122:AAH8mLDiInIMjEo5-0GqzhiYmmn3664PNOo"
+TOKEN = "8386757122:AAGTIlu962P8Yw8peRReyKVvFz-0S6o3DfQ"
 
 # Payment code or wallet address
 PAYMENT_CODE = "0x038edc0ff2670a8ef48eff5f866d04cee787efd9"
