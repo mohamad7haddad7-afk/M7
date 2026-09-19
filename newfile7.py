@@ -16,7 +16,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
     
     # Send the logo photo with caption and button
-    with open("logo.jpg", "rb") as photo_file:
+    with open("logo.Jpg", "rb") as photo_file:
         await context.bot.send_photo(
             chat_id=update.effective_chat.id,
             photo=photo_file,
